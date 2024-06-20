@@ -3,6 +3,7 @@
 use App\Http\Controllers\DepositController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +21,8 @@ Route::get( '/' , [ClientController::class, 'index']) ->name('index');
 Route::post('/index/store', [ClientController::class, 'store'])->name('index.store') ;
 
 Route::get('/dashboard', [DepositController::class, 'create'])->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get( '/about' , [HomeController::class, 'index']) ->name('about');
 
 Route::get( '/' , [DepositController::class, 'index']) ->name('index');
 Route::post('/dashboard/store', [DepositController::class, 'store'])->name('dashboard.store') ;

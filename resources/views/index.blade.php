@@ -26,7 +26,7 @@
                             <h3 class="" style="font-size: 24px; font-weight: bold;">Agrotehnica Cahul</h3>
                             <h3 class="" style="font-size: 18px; font-weight: 200;">Arenda Incaperilor</h3>
                         </div>
-                        <p class="d-flex justify-content-end col-lg-8 mt-2 mb-2" style="font-size: 18px;">+373
+                        <p class="d-flex justify-content-end col-lg-8  mt-2 mb-2" style="font-size: 18px;">+373
                             (0)00-00-00<br>Sunati de la 8 - 21</p>
                     </div>
                 </div>
